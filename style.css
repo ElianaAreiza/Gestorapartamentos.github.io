@@ -1,0 +1,132 @@
+.fondo {
+    background-image: url('fondopiscina.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+        .login-container h2 {
+            text-align: center;
+        }
+        @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+        h2 {
+          font-size: calc(4px + 4vh); /* Tamaño del título */
+          line-height: 1; /* Elimina el espacio adicional entre líneas */
+          font-family: "Sacramento", cursive;
+          text-shadow: 0 0 5px #00ff4c, 0 0 15px #00ffd5, 0 0 20px #00ff2a, 0 0 40px #00e5ff, 0 0 60px #ff0000, 0 0 10px #00ffe5, 0 0 98px #ff0000;
+          color: #fff6a9;
+          text-align: center;
+          margin: 0; /* Elimina el margen para centrar completamente */
+          padding: 0; /* Elimina el relleno para centrar completamente */
+          animation: blink 12s infinite, blink 12s infinite;
+        }
+        
+        .table {
+          padding: 2vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        
+        @keyframes blink {
+          20%, 24%, 55% {
+            color: transparent;
+            text-shadow: none;
+          }
+        
+          0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+            text-shadow: 0 0 5px #00ffa6d8, 0 0 15px #04ff00, 0 0 20px #00e5ff, 0 0 40px #04ff00, 0 0 60px #ff0000, 0 0 10px #8400ff, 0 0 98px #ff0000;
+            color: #fff6a9;
+          }
+        }
+        
+        .center-content {
+            text-align: center;
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            color: #e3e6e9;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, color 0.2s ease; /* Agrega la transición para el cambio de color del texto */
+            background-size: 200% auto;
+            animation: gradient 3s linear infinite; /* Aplica la animación de fondo */
+            width: 200px;
+            text-align: center;
+            background: linear-gradient(to right, var(--color-start), var(--color-mid), var(--color-end));
+        }
+        
+        /* Establece el color del borde en hover y focus */
+        .btn:hover,
+        .btn:focus {
+            border-color: var(--hover); 
+            transform: scale(1.05); 
+            box-shadow: inset 0 0 0 2em var(--hover);
+            color: #09d6b4; 
+        }
+        
+        .fill {
+            --color-start: #09e0e4;
+            --color-mid: #c300ff;
+            --color-end: #1a7cbd;
+            --hover: transparent;
+        }
+        
+        .pulse {
+            --color-start: #09e0e4;
+            --color-mid: #fb00ff;
+            --color-end: #1a7cbd;
+            --hover: transparent;
+        }
+        
+        .close {
+            --color-start: #09e0e4;
+            --color-mid: #d000ff;
+            --color-end: #1a7cbd;
+            --hover: transparent;
+        }
+        
+        .raise {
+            --color-start: #09e0e4;
+            --color-mid: #ff00d0;
+            --color-end: #1a7cbd;
+            --hover: transparent;
+        }
+        
+        .up {
+            --color-start: #09e0e4;
+            --color-mid: #e100ff;
+            --color-end: #1a7cbd;
+            --hover: transparent;
+        }
+        
+        .slide {
+            --color-start: #09e0e4;
+            --color-mid: #d000ff;
+            --color-end: #1a7cbd;
+            --hover: transparent;
+        }
+        
